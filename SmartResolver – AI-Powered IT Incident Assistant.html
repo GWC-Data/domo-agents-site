@@ -92,29 +92,102 @@
             <div class="row gx-60">
                 <div class="col-xl-12 align-self-center">
                     <div class="product-about">
-                        <p class="text">Automatically analyzes new incident tickets, suggests resolution steps using historical ticket analysis, and auto-assigns best-fit resolver. Managers get SLA-based alerts for critical tickets.</p>
-                       
-                        <div class="row">
+                        <h4>Agent Overview:</h4>
+                        <p class="text">Smart Resolver automatically analyzes new incident tickets, suggests resolution steps using historical ticket data, and assigns the best-fit resolver based on skillsets and availability. Managers receive real-time SLA-based alerts for critical tickets, ensuring accountability and timely resolution. </p>
+
+
+                        <p class=""><Strong style="color: black;">Business Function: </Strong> IT Operations & Incident Management </p>
+
+                        <div class="row mt-5">
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Pain Points before Agents:
+                                    <h4 class="beige-title">Problem Statement
                                 </div>
-                                <p class="text">Manual ticket triage, delayed resolution due to lack of reference knowledge, poor resource assignment, and no real-time SLA monitoring</p>
+                                <p class="text">Manual ticket triage and assignment processes delay resolution. A lack of reference knowledge from past incidents, poor resource assignment, and no real-time SLA monitoring result in inefficiencies, prolonged downtimes, and dissatisfied stakeholders. </p>
                             </div>
                         
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Benefits After Agents:
+                                    <h4 class="beige-title">Why Not Just BI / ML / Workflow? 
                                     </div>
-                                        <p class="text">Automated PDF parsing, proactive alerts for renewals/compliance, lease dashboards, and seamless CRM/ERP updates for lease lifecycle tracking</p>
+                                        <p class="text">BI dashboards and workflows focus on tracking and static automation but lack contextual decision-making. SmartResolver uses historical and real-time data to analyze and assign resources dynamically while providing proactive recommendations for faster resolutions. </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div>
+                        <h4 class="beige-title">Workflow Explanation</h4>
+                        <div class="row g-4">
+      
+                            <div class="col-md-4">
+                                <div class="step-card" data-step="1">
+                                <div class="step-content">
+                                    <div class="step-title">Trigger</div>
+                                    <p class="step-desc">Ingestion of new incident tickets from the ITSM system. </p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="step-card" data-step="2">
+                                <div class="step-content">
+                                    <div class="step-title">Agent Evaluation</div>
+                                    <p class="step-desc">SmartResolver analyzes ticket details, maps historical incidents, and evaluates resolver suitability based on skills and availability. </p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="step-card" data-step="3">
+                                <div class="step-content">
+                                    <div class="step-title">Decision Logic</div>
+                                    <p class="step-desc">Determines optimal resolver assignment or escalates high-priority tickets requiring manager oversight. </p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="step-card" data-step="4">
+                                <div class="step-content">
+                                    <div class="step-title">Actions Taken </div>
+                                    <p class="step-desc">Sends resolution recommendations to the assigned resolver or escalates the ticket to the manager for review.  </p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="step-card" data-step="5">
+                                <div class="step-content">
+                                    <div class="step-title">Escalation / Human Input </div>
+                                    <p class="step-desc">Managers intervene in case of severe incidents requiring policy overrides or additional approvals.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="step-card" data-step="6">
+                                <div class="step-content">
+                                    <div class="step-title">Learning / Feedback </div>
+                                    <p class="step-desc">Logs resolution patterns and outcomes to refine AI decision-making over time.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <div class="beige-title" style="color: black;">Tools & Components Used</div>
+                        <div class="row">
+                            <div>Domo Workflows </div>
+                            <div>Agent Prompt </div>
+                            <div>ITSM System Integration </div>
+                            <div>Custom Domo Brick for SLA and incident visualization </div>
+                            <div>MagicETL for resolver matching logic </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-    
+        </div>
+    </section>
     <!--********************************
 			Code End  Here 
 	******************************** -->
