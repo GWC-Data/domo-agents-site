@@ -9310,6 +9310,7 @@ ol.wp-block-rss {
 .search-suggestions .product-grid.style9 .box-img img {
   width: auto;
   height: auto;
+
 }
 
 .search-suggestions .product-grid.style9 .star-rating {
@@ -17957,8 +17958,9 @@ table.variations .label,
   -webkit-transform: translateY(-48px);
       -ms-transform: translateY(-48px);
           transform: translateY(-48px);
-  background-color: #F9E4B0;
+  /* background-color: #F9E4B0; */
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .product-grid.style12 .box-img img {
