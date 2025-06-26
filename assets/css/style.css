@@ -32627,6 +32627,7 @@ span.select2-selection.select2-selection--single:focus {
 
 
 .step-card {
+    height: 100%;
       position: relative;
       overflow: hidden;
       border-radius: 12px;
