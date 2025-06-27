@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sales Floor Allocation Agent</title>
+    <title>Capacity Conflict Resolver Agent</title>
     <meta name="author" content="Erna">
     <meta name="description" content="Erna - Multi-Purpose Modern & Minimal WooCommerce Template">
     <meta name="keywords" content="Erna - Multi-Purpose Modern & Minimal WooCommerce Template">
@@ -79,9 +79,9 @@
     <div class="breadcumb-wrapper " data-bg-src="https://html.themeholy.com/erna/demo/assets/img/bg/breadcumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Sales Floor Allocation Agent</h1>
+                <h1 class="breadcumb-title">Capacity Conflict Resolver Agent</h1>
                 <ul class="breadcumb-menu">
-                    <li>Retail</li>
+                    <li>Manufacturing</li>
                 </ul>
             </div>
         </div>
@@ -94,12 +94,15 @@
                 <div class="col-xl-12 align-self-center">
                     <div class="product-about">
                         <h4>Agent Overview</h4>
-                        <p>The Sales Floor Allocation Agent monitors real-time foot traffic, sales conversions, and zone performance against forecast to recommend dynamic staff reallocation across store zones. It provides actionable alerts to store supervisors, ensuring optimal staff distribution aligned with demand fluctuations throughout the day. 
+                        <p>The Capacity Conflict Resolver Agent dynamically analyzes shift schedules, job orders, labor availability, and machine capacity to detect potential conflicts or bottlenecks in production. It evaluates trade-offs in real time and recommends adjustments—such as job reshuffling, overtime use, or alternate routing—to ensure smooth, efficient operations. </p>
 
                         <div class="row">
-                            <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px; margin-right: 5px;">In-Store Operations Optimization
+                            <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px; margin-right: 5px;">Production Planning
                             </div>
-                            <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px;">Workforce Allocation  
+                            <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px;">Scheduling Optimization
+
+                            </div>
+                            <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px;">Constraint Resolution
 
                             </div>
                         </div>
@@ -114,18 +117,31 @@
                                <div>
                                   <ul>
                                     <li>
-Boosts productivity by aligning staff with real-time demand
+Reduces production delays by resolving conflicts proactively 
+
                                     </li>
                                     <li>
-Increases conversion and customer satisfaction by reducing wait times
+Increases resource utilization (labor, machine, material) 
+
+
+ 
+
                                     </li>
                                     <li>
-Reduces labor cost waste from overstaffing low-traffic areas
+Improves on-time order fulfillment 
+
+
+ 
+
                                     </li>
                                     
-<li>Enables agile and data-driven in-store workforce management</li>
+<li>Reduces manual firefighting and decision fatigue 
+ </li>
 
-<li>Improves forecast accuracy over time by learning from staff shift outcomes</li>
+<li>Standardizes and accelerates conflict resolution with explainable logic 
+
+ 
+ </li>
                                 </ul> 
 
                                 </div>
@@ -134,7 +150,7 @@ Reduces labor cost waste from overstaffing low-traffic areas
                                 <div class="beige-color">
                                     <h4 class="beige-title">Problem Statement </h4>
                                 </div>
-                                <p class="text">Manual zone staffing decisions are typically based on fixed schedules and past experience, not real-time conditions. This results in under- or overstaffed zones, especially during traffic spikes or dips. Reactive shifts in staff allocation happen too late to fix lost sales opportunities or manage congestion. 
+                                <p class="text">Although BI tools and ML models can forecast capacity overloads or underutilization, the actual process of resolving these issues is manual. Planners have to balance multiple competing constraints—machine load, shift capacity, labor skill, and inventory—often under pressure and without visibility into the best options. This leads to suboptimal or inconsistent decisions, delayed responses, and missed SLAs. </p> 
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
@@ -142,44 +158,63 @@ Reduces labor cost waste from overstaffing low-traffic areas
                                 </div>
                                 <ul>
                                     <li>
-                                        BI dashboards can show zone-level data but don’t provide reallocation suggestions. 
+                                        BI flags the problem but doesn’t solve it. 
 
                                     </li>
                                     <li>
-                                        ML models can predict traffic but aren’t integrated into workforce systems or equipped to recommend staff movements. 
+                                        ML forecasts future capacity issues but lacks context on shop floor constraints. 
 
-<li>Workflows don't reason over forecast gaps or live zone comparisons.</li>
                                     </li>
+                                    <li>
+                                       Workflows don't weigh trade-offs or provide rationale for alternatives. 
+ 
+                                    </li>
+                                    
                                 </ul>
-                                <p> This agent closes the loop by analyzing performance, comparing it to forecasted expectations, and recommending immediate zone reallocations—all in real time. 
-                                </p>
+                                
+                                <p> This agent combines constraint-aware logic, real-time data feeds, and explainable optimization to recommend the best possible adjustments with execution-ready instructions. </p>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
                                     <h4 class="beige-title">Agent Capabilities</h4>
                                 </div>
                                 <div>
-                                    <div>✅ Monitors live zone-level foot traffic, conversion rates, and staffing 
+                                    <div>✅ Detects overlapping job orders, overbooked shifts, and machine unavailability  
+
 
  </div>
-                                    <div>✅ Compares actual performance to forecasts by time and zone 
+                                    <div>✅ Evaluates constraints across: 
 
 
  </div> 
-                                    <div>✅ Identifies overstaffed/understaffed zones 
+ <ul>
+    <li>Labor schedules and skills 
 
+
+ </li>
+    <li>Machine run-time, maintenance windows</li>
+    <li>Inventory and material availability</li>
+ </ul>
+                                    <div>✅ Suggests: 
  </div> 
-                                    <div>✅ Recommends staff shifts between zones to optimize coverage 
+ <ul>
+    <li>Job rescheduling or prioritization 
+</li>
+<li>Labor reallocation or overtime 
+</li> 
+    <li>Routing to alternate machines or lines 
+</li>
+ </ul>
+                                    <div>✅ Provides rationale for each recommendation 
+
+
 
 </div> 
-                                    <div>✅ Sends real-time alerts to store supervisors with reasoning 
+                                    <div>✅ Updates planning dashboards or sends alerts for rapid action 
 
 
 </div> 
-                                    <div>✅ Tracks action history and post-shift effectiveness
-
-
-</div> 
+                        
                                 </div>
                             </div>
                         </div>
@@ -198,18 +233,17 @@ Reduces labor cost waste from overstaffing low-traffic areas
   <h3 class="box-title">Workflow Explanation</h3>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2em;">
 
-    <!-- Step 1 -->
+   <!-- Step 1 -->
     <div class="step-card" data-step="1">
       <div class="step-content">
-        <strong>Live Zone Data Monitor</strong>
+        <strong>Capacity Snapshot Builder</strong>
         <ul>
-          <li>Pulls data from footfall counters, POS systems, and staffing logs</li>
-          <li>Metrics monitored include:
+          <li>Pulls current:
             <ul>
-              <li>Foot traffic volume per zone</li>
-              <li>Sales conversion rate</li>
-              <li>Active staff per zone</li>
-              <li>Forecasted footfall vs. actual</li>
+              <li>Job queue and order details</li>
+              <li>Shift schedules and labor rosters</li>
+              <li>Machine availability and planned downtime</li>
+              <li>Material inventory status</li>
             </ul>
           </li>
         </ul>
@@ -219,15 +253,17 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 2 -->
     <div class="step-card" data-step="2">
       <div class="step-content">
-        <strong>Forecast Deviation Analyzer</strong>
+        <strong>Conflict Detection Engine</strong>
         <ul>
-          <li>Compares current zone performance against forecast</li>
-          <li>Flags zones with:
+          <li>Scans for:
             <ul>
-              <li>Higher-than-expected traffic but low staff presence</li>
-              <li>Overstaffing in zones with weak performance</li>
+              <li>Double-booked machines</li>
+              <li>Overlapping tasks on same line</li>
+              <li>Unassigned labor due to shift gaps</li>
+              <li>Inventory shortages for scheduled runs</li>
             </ul>
           </li>
+          <li>Flags issues with timestamps and locations</li>
         </ul>
       </div>
     </div>
@@ -235,15 +271,24 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 3 -->
     <div class="step-card" data-step="3">
       <div class="step-content">
-        <strong>Staff Reallocation Recommender</strong>
+        <strong>Optimization & Resolution Recommender</strong>
         <ul>
-          <li>Identifies staff reallocation opportunities:
+          <li>Evaluates resolution scenarios using constraint satisfaction:
             <ul>
-              <li>From overstaffed to understaffed zones</li>
-              <li>Based on proximity, skill compatibility, and recent breaks</li>
+              <li>Job A → move to later shift</li>
+              <li>Job B → reroute to Line 3</li>
+              <li>Shift X → assign overtime labor</li>
+              <li>Recommend alternate raw material if stock is low</li>
             </ul>
           </li>
-          <li>Prioritizes based on sales potential, wait times, or congestion</li>
+          <li>Ranks scenarios by impact on:
+            <ul>
+              <li>Throughput</li>
+              <li>On-time delivery</li>
+              <li>Labor efficiency</li>
+              <li>Cost</li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -251,15 +296,13 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 4 -->
     <div class="step-card" data-step="4">
       <div class="step-content">
-        <strong>Supervisor Alert Trigger</strong>
+        <strong>Decision Justifier & Alert Agent</strong>
         <ul>
-          <li>Sends real-time notifications to the floor manager with:
-            <ul>
-              <li>Zones to rebalance</li>
-              <li>Number of staff to move</li>
-              <li>Justification (e.g., “Zone B has 2x footfall vs. forecast but short 2 staff”)</li>
-            </ul>
+          <li>Prepares rationale for top recommendation:
+            <br><em>“Reroute Job #457 to Machine M3 (75% load) to avoid conflict with Job #453. Preserves delivery date and avoids overtime.”</em>
           </li>
+          <li>Sends alerts to production planner or line manager</li>
+          <li>Option to auto-approve or request manual override</li>
         </ul>
       </div>
     </div>
@@ -267,27 +310,14 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 5 -->
     <div class="step-card" data-step="5">
       <div class="step-content">
-        <strong>Action Logger</strong>
+        <strong>System Sync & Log</strong>
         <ul>
-          <li>Updates dataset with:
-            <ul>
-              <li>Action taken or ignored</li>
-              <li>Timestamp, staff involved, performance impact post-action</li>
-            </ul>
-          </li>
+          <li>Syncs approved plan with MES, ERP, or production scheduling tool</li>
+          <li>Logs conflict details, resolution chosen, and final outcome</li>
         </ul>
       </div>
     </div>
-
-    <!-- Step 6 -->
-    <div class="step-card" data-step="6">
-      <div class="step-content">
-        <strong>End</strong>
-        <ul>
-          <li>Loop continues for next real-time cycle</li>
-        </ul>
-      </div>
-    </div>
+   
 
   </div>
 </div>
@@ -295,19 +325,32 @@ Reduces labor cost waste from overstaffing low-traffic areas
                 <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
                     <h3 class="box-title">Tools & Components Used</h3>
                     <div class="row">
-                            <div>* MagicETL (zone-wise forecast vs. actual comparison, staff shift rules) 
+                            <div>* MagicETL: Joins job orders, shift plans, inventory, and machine data 
 
                                  </div>
-                            <div>*  Agent Prompts (for reallocation logic and message generation) 
 
+<div>* Agent Prompts: For optimization reasoning and trade-off communication 
+ 
+
+                             
                             </div>
-                            <div>* Domo Workflows 
+                            <div>* Domo Workflows: Conflict detection and notification 
 
 
-                            <div>* Store Operations API or Workforce Scheduler integration
+
+
+
+<div>* Integration with MES/ERP (e.g., SAP PP, Oracle SCM, PLEX) 
+                            
+
+
+
 
                                  </div>
-                            <div>* Visual Alert Brick for in-store tablets/kiosks  
+                            <div>* Scheduling Visual Brick for real-time capacity visualization 
+ 
+ 
+
 
                                  </div>
                            
