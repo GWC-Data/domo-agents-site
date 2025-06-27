@@ -32644,7 +32644,7 @@ span.select2-selection.select2-selection--single:focus {
       top: 30px;
       right: 20px;
       font-size: 5rem;
-      color: rgba(0, 0, 0, 0.05);
+      color: rgba(0, 0, 0, 0.15);
       font-weight: 900;
       z-index: 0;
     }
