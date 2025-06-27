@@ -88,13 +88,36 @@
     </div><!--==============================
     Product Details
     ==============================-->
-    <section class="product-details space-top space-extra-bottom">
+  <section class="product-details space-extra-bottom"  style="margin-top: 16px;">
+
+        <div class="container">
+            <div class="row gx-60">
+          <div class="container">
+  <a href="javascript:history.back()" 
+     style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 1rem;
+     "
+     onmouseover="this.style.backgroundColor='#f0f0f0'"
+     onmouseout="this.style.backgroundColor='#f0f0f0'">
+    <i class="fas fa-arrow-left"></i>
+  </a>
+</div>
         <div class="container">
             <div class="row gx-60">
                 <div class="col-xl-12 align-self-center">
                     <div class="product-about">
                         <h4>Agent Overview</h4>
-                        <p>The AI-Driven Inventory Disposal Agent automates the decision-making process around aging or non-moving inventory. It evaluates each inventory unit for spoilage risk, carrying cost, and operational viability, and recommends the most cost-effective action: direct disposal, markdown sale, or inter-warehouse transfer. This ensures inventory is aligned with demand, reduces waste, and improves warehouse utilization. </p>
+                        <p style="font-size: large;">The AI-Driven Inventory Disposal Agent automates the decision-making process around aging or non-moving inventory. It evaluates each inventory unit for spoilage risk, carrying cost, and operational viability, and recommends the most cost-effective action: direct disposal, markdown sale, or inter-warehouse transfer. This ensures inventory is aligned with demand, reduces waste, and improves warehouse utilization. </p>
 
                         <div class="row">
                             <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px; margin-right: 5px;">Inventory Optimization
@@ -107,10 +130,10 @@
 
                         <div class="text"></div>
 
-                        <div class="row mt-5">
+                        <div class="row mt-5" style="font-size: large;">
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Business Benefits </h4>
+                                    <h4>Business Benefits </h4>
                                 </div>
                                <div>
                                   <ul>
@@ -139,25 +162,25 @@ Increased warehouse efficiency and space utilization
 
  </li>
                                 </ul> 
-
+   <div class="style" style="border-bottom: 1px solid #e0e0e0 ; padding-bottom: 1rem; margin-bottom: 1rem;"></div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Problem Statement </h4>
+                                    <h4>Problem Statement </h4>
                                 </div>
                                 <p class="text">Inventory teams traditionally rely on static rules or lagging metrics like sales velocity to flag aging stock. While ML may forecast spoilage, it does not support nuanced trade-off analysis or provide actionable disposal/redistribution recommendations. Most decisions are manual and lack integration with procurement or warehouse operations, leading to lost margins and inefficiencies. </p> 
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Why Not Just BI / ML / Workflow? </h4> 
+                                    <h4>Why Not Just BI / ML / Workflow? </h4> 
                                 </div>
                                 
                                 <p> BI dashboards highlight stagnant inventory but don't recommend optimal actions. ML may predict obsolescence but doesn’t provide financial trade-offs between markdown, disposal, or transfer. Traditional workflows lack dynamic evaluation of storage costs, warehouse capacity, or promotional pricing effectiveness. This agent merges ML insights with operational simulation to guide inventory treatment decisions. </p>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Agent Capabilities</h4>
+                                    <h4>Agent Capabilities</h4>
                                 </div>
                                 <div>
                                     <div>✅ Detects low-velocity or obsolete inventory 
@@ -197,14 +220,14 @@ Increased warehouse efficiency and space utilization
                 </li>
             </ul>
             <div class="tab-content" id="productTabContent">
-                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-  <h3 class="box-title">Workflow Explanation</h3>
+                <div class="tab-pane fade show active" style="font-size: large;" id="description" role="tabpanel" aria-labelledby="description-tab">
+  <h3>Workflow Explanation</h3>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2em;">
 
 <!-- Step 1 -->
     <div class="step-card" data-step="1">
       <div class="step-content">
-        <strong>Inventory Disposal Catalyst</strong>
+       <div class="step-title">Inventory Disposal Catalyst</div>
         <ul>
           <li>Initiates the workflow and classifies inventory into potential actions:
             <ul>
@@ -220,7 +243,7 @@ Increased warehouse efficiency and space utilization
     <!-- Step 2 -->
     <div class="step-card" data-step="2">
       <div class="step-content">
-        <strong>Dispose Path</strong>
+        <div class="step-title">Dispose Path</div>
         <ul>
           <li>Identifies units unsuitable for use and recommends direct disposal.</li>
         </ul>
@@ -230,7 +253,7 @@ Increased warehouse efficiency and space utilization
     <!-- Step 3 -->
     <div class="step-card" data-step="3">
       <div class="step-content">
-        <strong>Mark Down Path</strong>
+        <div class="step-title">Mark Down Path</div>
         <ul>
           <li>Suggests discounted sales through promotions for viable SKUs.</li>
         </ul>
@@ -240,7 +263,7 @@ Increased warehouse efficiency and space utilization
     <!-- Step 4 -->
     <div class="step-card" data-step="4">
       <div class="step-content">
-        <strong>Transfer Path</strong>
+        <div class="step-title">Transfer Path</div>
         <ul>
           <li>Recommends transfer of units to another location with demand
             <ul>
@@ -254,7 +277,7 @@ Increased warehouse efficiency and space utilization
     <!-- Step 5 -->
     <div class="step-card" data-step="5">
       <div class="step-content">
-        <strong>Resultant Table</strong>
+        <div class="step-title">Resultant Table</div>
         <ul>
           <li>Logs the selected action and resulting inventory adjustments.</li>
         </ul>
@@ -264,7 +287,7 @@ Increased warehouse efficiency and space utilization
     <!-- Step 6 -->
     <div class="step-card" data-step="6">
       <div class="step-content">
-        <strong>Inventory Shifted (if applicable)</strong>
+        <div class="step-title">Inventory Shifted (if applicable)</div>
         <ul>
           <li>Tracks inter-warehouse transfers and closes loop on inventory movement.</li>
         </ul>
@@ -276,8 +299,8 @@ Increased warehouse efficiency and space utilization
   </div>
 </div>
 
-                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                    <h3 class="box-title">Tools & Components Used</h3>
+                <div class="tab-pane fade" id="additional" style="font-size: large;" role="tabpanel" aria-labelledby="additional-tab">
+                    <h3>Tools & Components Used</h3>
                     <div class="row">
                             <div>* MagicETL (for inventory profiling and action routing) 
 

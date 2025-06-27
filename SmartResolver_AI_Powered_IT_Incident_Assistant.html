@@ -85,14 +85,40 @@
                 </ul>
             </div>
         </div>
-    </div><!--==============================
+    </div>
+     
+    <!--==============================
     Product Details
     ==============================-->
-    <section class="product-details space-top space-extra-bottom">
+    <section class="product-details space-extra-bottom"  style="margin-top: 16px;">
+
         <div class="container">
             <div class="row gx-60">
+          <div class="container">
+  <a href="javascript:history.back()" 
+     style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 1rem;
+     "
+     onmouseover="this.style.backgroundColor='#f0f0f0'"
+     onmouseout="this.style.backgroundColor='#f0f0f0'">
+    <i class="fas fa-arrow-left"></i>
+  </a>
+</div>
+
                 <div class="col-xl-12 align-self-center">
                     <div class="product-about">
+                        
+    
                         <h4>Agent Overview</h4>
                         <p style="font-size: large;">Smart Resolver automatically analyzes new incident tickets, suggests resolution steps using historical ticket data, and assigns the best-fit resolver based on skillsets and availability. Managers receive real-time SLA-based alerts for critical tickets, ensuring accountability and timely resolution. </p>
 
@@ -103,28 +129,28 @@
 
                         <div class="text"></div>
 
-                        <div class="row mt-5">
+                        <div class="row mt-5" style="font-size: large;">
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h3 style="font-size: large;">Business Benefits </h3>
+                                    <h3>Business Benefits </h3>
                                 </div>
-                                <p class="text" style="font-size: large;">Manual ticket triage and assignment processes delay resolution. A lack of reference knowledge from past incidents, poor resource assignment, and no real-time SLA monitoring result in inefficiencies, prolonged downtimes, and dissatisfied stakeholders. </p>
+                                <p class="text" style="font-size:large;">Manual ticket triage and assignment processes delay resolution. A lack of reference knowledge from past incidents, poor resource assignment, and no real-time SLA monitoring result in inefficiencies, prolonged downtimes, and dissatisfied stakeholders. </p>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 style="font-size: large;">Problem Statement </h4>
+                                    <h4>Problem Statement </h4>
                                 </div>
                                 <p class="text" style="font-size: large;">Manual ticket triage and assignment processes delay resolution. A lack of reference knowledge from past incidents, poor resource assignment, and no real-time SLA monitoring result in inefficiencies, prolonged downtimes, and dissatisfied stakeholders.</p>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 style="font-size: large;">Why Not Just BI / ML / Workflow? </h4> 
+                                    <h4>Why Not Just BI / ML / Workflow? </h4> 
                                 </div>
                                 <p style="font-size: large;">BI dashboards and workflows focus on tracking and static automation but lack contextual decision-making. SmartResolver uses historical and real-time data to analyze and assign resources dynamically while providing proactive recommendations for faster resolutions. </p>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4  style="font-size: large;">Agent Capabilities</h4>
+                                    <h4>Agent Capabilities</h4>
                                 </div>
                                 <div style="font-size: large;">
                                     <div>✅ Automated analysis of incident tickets using historical patterns </div>
@@ -144,9 +170,10 @@
                     <a class="nav-link th-btn" id="additional-tab" data-bs-toggle="tab" href="#additional" role="tab" aria-controls="additional" aria-selected="false">Tools & Components Used</a>
                 </li>
             </ul>
-            <div class="tab-content" id="productTabContent">
-                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-                    <h3 class="box-title">Workflow Explanation</h3>
+           <div class="tab-content" id="productTabContent" >
+    <div class="tab-pane fade show active" id="description"  style="font-size: large;" role="tabpanel" aria-labelledby="description-tab">
+        <h3>Workflow Explanation</h3>
+
                     <div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 2em;">
                             <div>
                                 <div class="step-card" data-step="1">
@@ -200,9 +227,9 @@
                             </div>
                         </div>
                 </div>
-                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                    <h3 class="box-title">Tools & Components Used</h3>
-                    <div class="row" style="font-size: large;">
+                <div class="tab-pane fade" id="additional" style="font-size: large;" role="tabpanel" aria-labelledby="additional-tab">
+                    <h3>Tools & Components Used</h3>
+                    <div class="row">
                             <div>* Domo Workflows </div>
                             <div>* Agent Prompt </div>
                             <div>* ITSM System Integration </div>

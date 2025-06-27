@@ -88,13 +88,36 @@
     </div><!--==============================
     Product Details
     ==============================-->
-    <section class="product-details space-top space-extra-bottom">
+    <section class="product-details space-extra-bottom"  style="margin-top: 16px;">
+
+        <div class="container">
+            <div class="row gx-60">
+          <div class="container">
+  <a href="javascript:history.back()" 
+     style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 1rem;
+     "
+     onmouseover="this.style.backgroundColor='#f0f0f0'"
+     onmouseout="this.style.backgroundColor='#f0f0f0'">
+    <i class="fas fa-arrow-left"></i>
+  </a>
+</div>
         <div class="container">
             <div class="row gx-60">
                 <div class="col-xl-12 align-self-center">
                     <div class="product-about">
                         <h4>Agent Overview</h4>
-                        <p>The Sales Floor Allocation Agent monitors real-time foot traffic, sales conversions, and zone performance against forecast to recommend dynamic staff reallocation across store zones. It provides actionable alerts to store supervisors, ensuring optimal staff distribution aligned with demand fluctuations throughout the day. 
+                        <p style="font-size: large;">The Sales Floor Allocation Agent monitors real-time foot traffic, sales conversions, and zone performance against forecast to recommend dynamic staff reallocation across store zones. It provides actionable alerts to store supervisors, ensuring optimal staff distribution aligned with demand fluctuations throughout the day.
 
                         <div class="row">
                             <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px; margin-right: 5px;">In-Store Operations Optimization
@@ -106,10 +129,10 @@
 
                         <div class="text"></div>
 
-                        <div class="row mt-5">
-                            <div class="col-6">
+                        <div class="row mt-5" style="font-size: large;">
+                            <div class="col-6" style="border-bottom: 1px solid #e0e0e0; padding-bottom: 1rem; margin-bottom: 2rem;">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Business Benefits </h4>
+                                    <h4>Business Benefits </h4>
                                 </div>
                                <div>
                                   <ul>
@@ -132,13 +155,13 @@ Reduces labor cost waste from overstaffing low-traffic areas
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Problem Statement </h4>
+                                    <h4>Problem Statement </h4>
                                 </div>
                                 <p class="text">Manual zone staffing decisions are typically based on fixed schedules and past experience, not real-time conditions. This results in under- or overstaffed zones, especially during traffic spikes or dips. Reactive shifts in staff allocation happen too late to fix lost sales opportunities or manage congestion. 
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Why Not Just BI / ML / Workflow? </h4> 
+                                    <h4>Why Not Just BI / ML / Workflow? </h4> 
                                 </div>
                                 <ul>
                                     <li>
@@ -156,7 +179,7 @@ Reduces labor cost waste from overstaffing low-traffic areas
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Agent Capabilities</h4>
+                                    <h4>Agent Capabilities</h4>
                                 </div>
                                 <div>
                                     <div>✅ Monitors live zone-level foot traffic, conversion rates, and staffing 
@@ -194,14 +217,14 @@ Reduces labor cost waste from overstaffing low-traffic areas
                 </li>
             </ul>
             <div class="tab-content" id="productTabContent">
-                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-  <h3 class="box-title">Workflow Explanation</h3>
+                <div class="tab-pane fade show active" id="description" style="font-size: large;" role="tabpanel" aria-labelledby="description-tab">
+  <h3>Workflow Explanation</h3>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2em;">
 
     <!-- Step 1 -->
     <div class="step-card" data-step="1">
       <div class="step-content">
-        <strong>Live Zone Data Monitor</strong>
+        <div class="step-title">Live Zone Data Monitor</div>
         <ul>
           <li>Pulls data from footfall counters, POS systems, and staffing logs</li>
           <li>Metrics monitored include:
@@ -219,7 +242,7 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 2 -->
     <div class="step-card" data-step="2">
       <div class="step-content">
-        <strong>Forecast Deviation Analyzer</strong>
+        <div class="step-title">Forecast Deviation Analyzer</div>
         <ul>
           <li>Compares current zone performance against forecast</li>
           <li>Flags zones with:
@@ -235,7 +258,7 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 3 -->
     <div class="step-card" data-step="3">
       <div class="step-content">
-        <strong>Staff Reallocation Recommender</strong>
+       <div class="step-title">Staff Reallocation Recommender</div>
         <ul>
           <li>Identifies staff reallocation opportunities:
             <ul>
@@ -251,7 +274,7 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 4 -->
     <div class="step-card" data-step="4">
       <div class="step-content">
-        <strong>Supervisor Alert Trigger</strong>
+        <div class="step-title">Supervisor Alert Trigger</div>
         <ul>
           <li>Sends real-time notifications to the floor manager with:
             <ul>
@@ -267,7 +290,7 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 5 -->
     <div class="step-card" data-step="5">
       <div class="step-content">
-        <strong>Action Logger</strong>
+      <div class="step-title">Action Logger</div>
         <ul>
           <li>Updates dataset with:
             <ul>
@@ -282,7 +305,7 @@ Reduces labor cost waste from overstaffing low-traffic areas
     <!-- Step 6 -->
     <div class="step-card" data-step="6">
       <div class="step-content">
-        <strong>End</strong>
+        <div class="step-title">End</div>
         <ul>
           <li>Loop continues for next real-time cycle</li>
         </ul>
@@ -292,8 +315,8 @@ Reduces labor cost waste from overstaffing low-traffic areas
   </div>
 </div>
 
-                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                    <h3 class="box-title">Tools & Components Used</h3>
+                <div class="tab-pane fade" id="additional" style="font-size: large;" role="tabpanel" aria-labelledby="additional-tab">
+                    <h3>Tools & Components Used</h3>
                     <div class="row">
                             <div>* MagicETL (zone-wise forecast vs. actual comparison, staff shift rules) 
 

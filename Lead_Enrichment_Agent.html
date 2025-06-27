@@ -88,7 +88,30 @@
     </div><!--==============================
     Product Details
     ==============================-->
-    <section class="product-details space-top space-extra-bottom">
+    <section class="product-details space-extra-bottom"  style="margin-top: 16px;">
+
+        <div class="container">
+            <div class="row gx-60">
+          <div class="container">
+  <a href="javascript:history.back()" 
+     style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 1rem;
+     "
+     onmouseover="this.style.backgroundColor='#f0f0f0'"
+     onmouseout="this.style.backgroundColor='#f0f0f0'">
+    <i class="fas fa-arrow-left"></i>
+  </a>
+</div>
         <div class="container">
             <div class="row gx-60">
                 <div class="col-xl-12 align-self-center">
@@ -104,7 +127,7 @@
                         <div class="text"></div>
 
                         <div class="row mt-5" style="font-size: large;">
-                            <div class="col-6">
+                            <div class="col-6" style="border-bottom: 1px solid #e0e0e0; padding-bottom: 1rem; margin-bottom: 1rem;">
                                 <div class="beige-color">
                                     <h4 >Business Benefits </h4>
                                 </div>
@@ -156,8 +179,8 @@
                 </li>
             </ul>
             <div class="tab-content" id="productTabContent">
-                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-                    <h3 class="box-title">Workflow Explanation</h3>
+                <div class="tab-pane fade show active" id="description" style="font-size: large;" role="tabpanel" aria-labelledby="description-tab">
+                    <h3>Workflow Explanation</h3>
                     <div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 2em;">
                             <div>
                                 <div class="step-card" data-step="1">
@@ -221,8 +244,8 @@
                             </div>
                         </div>
                 </div>
-                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                    <h3 class="box-title">Tools & Components Used</h3>
+                <div class="tab-pane fade" id="additional" style="font-size: large;" role="tabpanel" aria-labelledby="additional-tab">
+                    <h3>Tools & Components Used</h3>
                     <div class="row" style="font-size: large;">
                             <div>* Domo Workflows </div>
                             <div>* AI Querying Tools for public data extraction 

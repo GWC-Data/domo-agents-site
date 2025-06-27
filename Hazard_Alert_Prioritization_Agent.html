@@ -88,13 +88,36 @@
     </div><!--==============================
     Product Details
     ==============================-->
-    <section class="product-details space-top space-extra-bottom">
+    <section class="product-details space-extra-bottom"  style="margin-top: 16px;">
+
+        <div class="container">
+            <div class="row gx-60">
+          <div class="container">
+  <a href="javascript:history.back()" 
+     style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 1rem;
+     "
+     onmouseover="this.style.backgroundColor='#f0f0f0'"
+     onmouseout="this.style.backgroundColor='#f0f0f0'">
+    <i class="fas fa-arrow-left"></i>
+  </a>
+</div>
         <div class="container">
             <div class="row gx-60">
                 <div class="col-xl-12 align-self-center">
                     <div class="product-about">
                         <h4>Agent Overview</h4>
-                        <p>The Hazard Alert Prioritization Agent ingests sensor data, historical hazard patterns, and real-time contextual information (e.g., location, time, proximity to personnel or high-risk zones) to evaluate and rank hazard alerts by severity. It escalates high-priority risks, enables timely intervention, and streamlines safety workflows. </p>
+                        <p style="font-size: large;">The Hazard Alert Prioritization Agent ingests sensor data, historical hazard patterns, and real-time contextual information (e.g., location, time, proximity to personnel or high-risk zones) to evaluate and rank hazard alerts by severity. It escalates high-priority risks, enables timely intervention, and streamlines safety workflows. </p>
 
                         <div class="row">
                             <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px; margin-right: 5px;">Workplace Safety
@@ -109,10 +132,10 @@
 
                         <div class="text"></div>
 
-                        <div class="row mt-5">
-                            <div class="col-6">
+                        <div class="row mt-5" style="font-size: large;">
+                            <div class="col-6" style="border-bottom: 1px solid #e0e0e0; padding-bottom: 1rem; margin-bottom: 2rem;">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Business Benefits </h4>
+                                    <h4>Business Benefits </h4>
                                 </div>
                                <div>
                                   <ul>
@@ -141,13 +164,13 @@ Increases safety team efficiency and focus
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Problem Statement </h4>
+                                    <h4>Problem Statement </h4>
                                 </div>
                                 <p class="text">Manufacturing environments generate large volumes of sensor-triggered safety alerts. Without prioritization, safety teams are forced to manually sift through them, often treating all hazards as equal. This slows response to critical incidents and increases the likelihood of near misses or delayed containment—particularly in hazardous zones or during peak operations. </p> 
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Why Not Just BI / ML / Workflow? </h4> 
+                                    <h4>Why Not Just BI / ML / Workflow? </h4> 
                                 </div>
                                 <ul>
                                     <li>
@@ -169,7 +192,7 @@ Increases safety team efficiency and focus
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Agent Capabilities</h4>
+                                    <h4>Agent Capabilities</h4>
                                 </div>
                                 <div>
                                     <div>✅ Monitors live hazard alerts (e.g., gas leaks, temperature spikes, pressure drops) 
@@ -222,14 +245,14 @@ Increases safety team efficiency and focus
                 </li>
             </ul>
             <div class="tab-content" id="productTabContent">
-                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-  <h3 class="box-title">Workflow Explanation</h3>
+                <div class="tab-pane fade show active" style="font-size: large;"  id="description" role="tabpanel" aria-labelledby="description-tab">
+  <h3>Workflow Explanation</h3>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2em;">
 
  <!-- Step 1 -->
     <div class="step-card" data-step="1">
       <div class="step-content">
-        <strong>Alert Intake & Contextualization</strong>
+       <div class="step-title">Alert Intake & Contextualization</div>
         <ul>
           <li>Ingests real-time sensor alert with metadata:
             <ul>
@@ -247,7 +270,7 @@ Increases safety team efficiency and focus
     <!-- Step 2 -->
     <div class="step-card" data-step="2">
       <div class="step-content">
-        <strong>Risk Scoring Engine</strong>
+        <div class="step-title">Risk Scoring Engine</div>
         <ul>
           <li>Calculates risk score using:
             <ul>
@@ -265,7 +288,7 @@ Increases safety team efficiency and focus
     <!-- Step 3 -->
     <div class="step-card" data-step="3">
       <div class="step-content">
-        <strong>Alert Prioritization & Escalation</strong>
+        <div class="step-title">Alert Prioritization & Escalation</div>
         <ul>
           <li>Categorizes alert as:
             <ul>
@@ -288,7 +311,7 @@ Increases safety team efficiency and focus
     <!-- Step 4 -->
     <div class="step-card" data-step="4">
       <div class="step-content">
-        <strong>Action Logging & Feedback</strong>
+        <div class="step-title">Action Logging & Feedback</div>
         <ul>
           <li>Captures response action:
             <ul>
@@ -305,7 +328,7 @@ Increases safety team efficiency and focus
     <!-- Step 5 -->
     <div class="step-card" data-step="5">
       <div class="step-content">
-        <strong>Summary Output</strong>
+        <div class="step-title">Summary Output</div>
         <ul>
           <li>Updates alert log dataset</li>
           <li>Triggers automated daily safety report if threshold breached</li>
@@ -316,8 +339,8 @@ Increases safety team efficiency and focus
   </div>
 </div>
 
-                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                    <h3 class="box-title">Tools & Components Used</h3>
+                <div class="tab-pane fade" id="additional" style="font-size: large;" role="tabpanel" aria-labelledby="additional-tab">
+                    <h3>Tools & Components Used</h3>
                     <div class="row">
                             <div>* MagicETL: Merge real-time sensor alerts with worker, location, and historical data 
 

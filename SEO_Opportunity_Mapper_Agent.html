@@ -88,13 +88,36 @@
     </div><!--==============================
     Product Details
     ==============================-->
-    <section class="product-details space-top space-extra-bottom">
+    <section class="product-details space-extra-bottom"  style="margin-top: 16px;">
+
+        <div class="container">
+            <div class="row gx-60">
+          <div class="container">
+  <a href="javascript:history.back()" 
+     style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 1rem;
+     "
+     onmouseover="this.style.backgroundColor='#f0f0f0'"
+     onmouseout="this.style.backgroundColor='#f0f0f0'">
+    <i class="fas fa-arrow-left"></i>
+  </a>
+</div>
         <div class="container">
             <div class="row gx-60">
                 <div class="col-xl-12 align-self-center">
                     <div class="product-about">
                         <h4>Agent Overview</h4>
-                        <p>The SEO Opportunity Mapper Agent is designed to automate and enhance SEO strategy by discovering trending keywords, mapping them to current content or missing pages, and generating actionable insights. It evaluates keyword gaps, normalizes metadata, and generates title optimization recommendations—boosting discoverability and accelerating content planning cycles. 
+                        <p style="font-size: large;">The SEO Opportunity Mapper Agent is designed to automate and enhance SEO strategy by discovering trending keywords, mapping them to current content or missing pages, and generating actionable insights. It evaluates keyword gaps, normalizes metadata, and generates title optimization recommendations—boosting discoverability and accelerating content planning cycles. 
                         <div class="row">
                             <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px; margin-right: 5px;"> SEO
                             </div>
@@ -104,10 +127,10 @@
 
                         <div class="text"></div>
 
-                        <div class="row mt-5">
-                            <div class="col-6">
+                        <div class="row mt-5" style="font-size: large;">
+                            <div class="col-6" style="border-bottom: 1px solid #e0e0e0; padding-bottom: 1rem; margin-bottom: 1rem;">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Business Benefits </h4>
+                                    <h4>Business Benefits </h4>
                                 </div>
                                <div>
                                   <ul>
@@ -137,20 +160,20 @@ Discovery of high-value, low-competition keywords
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Problem Statement </h4>
+                                    <h4>Problem Statement </h4>
                                 </div>
                                 <p class="text">Traditional SEO audits are manual, slow, and reactive. BI tools can surface keyword rankings but don’t explain what’s missing. ML models suggest popular terms but fail to tie them to actual content opportunities. Marketing teams often rely on gut feeling instead of real-time, data-driven keyword intent analysis.</p>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Why Not Just BI / ML / Workflow? </h4> 
+                                    <h4>Why Not Just BI / ML / Workflow? </h4> 
                                 </div>
                                
                                 <p>  BI shows current performance not gaps. ML identifies keyword trends but doesn’t connect them to content holes. Static workflows can’t reason across search patterns or adapt to trend shifts. This agent combines NLP, metadata analysis, and keyword benchmarking to suggest high-impact SEO improvements and automate title optimization workflows.</p>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Agent Capabilities</h4>
+                                    <h4>Agent Capabilities</h4>
                                 </div>
                                 <div>
                                     <div>✅ Validates and normalizes metadata keywords 
@@ -196,14 +219,14 @@ Discovery of high-value, low-competition keywords
                 </li>
             </ul>
             <div class="tab-content" id="productTabContent">
-                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-  <h3 class="box-title">Workflow Explanation</h3>
+                <div class="tab-pane fade show active" id="description" style="font-size: large;" role="tabpanel" aria-labelledby="description-tab">
+  <h3>Workflow Explanation</h3>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2em;">
 
     <!-- Step 1 -->
     <div class="step-card" data-step="1">
       <div class="step-content">
-        <strong>Metadata Validator:</strong>
+        <div class="step-title">Metadata Validator:</div>
         <ul>
             <li>
                 Checks for metadata completeness and outdated terms 
@@ -217,9 +240,9 @@ Discovery of high-value, low-competition keywords
     <!-- Step 2 -->
     <div class="step-card" data-step="2">
       <div class="step-content">
-        <strong>
+        <div class="step-title">
             SEO Keyword Recommendation: 
-        </strong>
+        </div>
 <ul>
     <li>
         Suggests trending keywords and SEO-optimized titles 
@@ -236,9 +259,9 @@ Flags keyword trends vs. existing terms
     <!-- Step 3 -->
     <div class="step-card" data-step="3">
       <div class="step-content">
-        <strong>
+        <div class="step-title">
             SEO Title Comparator:
-        </strong>
+        </div>
 <ul>
     <li>
         Compares titles against trend recommendations 
@@ -258,8 +281,8 @@ Scores them for improvement and creates final SEO output
   </div>
 </div>
 
-                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                    <h3 class="box-title">Tools & Components Used</h3>
+                <div class="tab-pane fade" id="additional" style="font-size: large;" role="tabpanel" aria-labelledby="additional-tab">
+                    <h3>Tools & Components Used</h3>
                     <div class="row">
                             <div>* MagicETL (keyword parsing and metadata cleanup) 
 

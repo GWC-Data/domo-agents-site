@@ -88,13 +88,36 @@
     </div><!--==============================
     Product Details
     ==============================-->
-    <section class="product-details space-top space-extra-bottom">
+   <section class="product-details space-extra-bottom"  style="margin-top: 16px;">
+
+        <div class="container">
+            <div class="row gx-60">
+          <div class="container">
+  <a href="javascript:history.back()" 
+     style="
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 1rem;
+     "
+     onmouseover="this.style.backgroundColor='#f0f0f0'"
+     onmouseout="this.style.backgroundColor='#f0f0f0'">
+    <i class="fas fa-arrow-left"></i>
+  </a>
+</div>
         <div class="container">
             <div class="row gx-60">
                 <div class="col-xl-12 align-self-center">
                     <div class="product-about">
                         <h4>Agent Overview</h4>
-                        <p>The AI-Driven Downtime Root Cause Agent ingests time-series equipment data, sensor alerts, maintenance logs, and operator notes to identify the most probable causes of unplanned machine downtime. It uses correlation, anomaly detection, and pattern recognition to generate actionable insights, structured summaries, and immediate alerts to help prevent recurrence. </p>
+                        <p style="font-size: large;">The AI-Driven Downtime Root Cause Agent ingests time-series equipment data, sensor alerts, maintenance logs, and operator notes to identify the most probable causes of unplanned machine downtime. It uses correlation, anomaly detection, and pattern recognition to generate actionable insights, structured summaries, and immediate alerts to help prevent recurrence. </p>
 
                         <div class="row">
                             <div style="border-radius: 5px; border: 1.5px solid rgb(214, 214, 214); width: fit-content; padding: 2px 10px; margin-right: 5px;">Maintenance Optimization
@@ -109,10 +132,10 @@
 
                         <div class="text"></div>
 
-                        <div class="row mt-5">
-                            <div class="col-6">
+                        <div class="row mt-5" style="font-size: large;">
+                            <div class="col-6" >
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Business Benefits </h4>
+                                    <h4>Business Benefits </h4>
                                 </div>
                                <div>
                                   <ul>
@@ -136,18 +159,18 @@ Reduced unplanned downtime through faster corrective action
 <li>Enhanced collaboration between operators, maintenance, and engineering  
  </li>
                                 </ul> 
-
+   <div class="style" style="border-bottom: 1px solid #e0e0e0 ; padding-bottom: 1rem; margin-bottom: 1rem;"></div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Problem Statement </h4>
+                                    <h4>Problem Statement </h4>
                                 </div>
                                 <p class="text">Downtime causes are often recorded manually across disconnected systems—sensor alerts, maintenance logs, and shift reports. Traditional root cause analysis is reactive, slow, and error-prone, leading to repeated breakdowns and prolonged machine idling. The absence of a unified analysis approach delays recovery and drives up operational costs. </p> 
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Why Not Just BI / ML / Workflow? </h4> 
+                                    <h4>Why Not Just BI / ML / Workflow? </h4> 
                                 </div>
                                 <ul>
                                     <li>
@@ -169,7 +192,7 @@ Reduced unplanned downtime through faster corrective action
                             </div>
                             <div class="col-6">
                                 <div class="beige-color">
-                                    <h4 class="beige-title">Agent Capabilities</h4>
+                                    <h4>Agent Capabilities</h4>
                                 </div>
                                 <div>
                                     <div>✅ Monitors machine logs, sensor outputs, and shift notes 
@@ -204,14 +227,14 @@ Reduced unplanned downtime through faster corrective action
                 </li>
             </ul>
             <div class="tab-content" id="productTabContent">
-                <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-  <h3 class="box-title">Workflow Explanation</h3>
+                <div class="tab-pane fade show active" style="font-size: large;" id="description" role="tabpanel" aria-labelledby="description-tab">
+  <h3>Workflow Explanation</h3>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2em;">
 
     <!-- Step 1 -->
     <div class="step-card" data-step="1">
       <div class="step-content">
-        <strong>Data Collection Agent:  </strong>
+        <div class="step-title">Data Collection Agent:  </div>
         <ul>
           <li> Pulls synchronized streams of:  </li>
          
@@ -227,9 +250,9 @@ Reduced unplanned downtime through faster corrective action
     </div>
 
     <!-- Step 2 -->
-<div class="step-card" data-step="3">
+<div class="step-card" data-step="2">
       <div class="step-content">
-        <strong>Influencer AI Analysis:</strong>
+        <div class="step-title">Influencer AI Analysis:</div>
         <ul>
           <li> Detects anomaly spikes before or during the downtime window 
 
@@ -243,9 +266,9 @@ Reduced unplanned downtime through faster corrective action
     </div>
 
 
-     <div class="step-card" data-step="Root">
+     <div class="step-card" data-step="3">
       <div class="step-content">
-        <strong>Root Cause Inference Engine</strong>
+        <div class="step-title">Root Cause Inference Engine</div>
         <ul>
           <li>Applies AI/ML to classify the likely cause:
             <ul>
@@ -263,7 +286,7 @@ Reduced unplanned downtime through faster corrective action
     <!-- Step 4 -->
     <div class="step-card" data-step="4">
       <div class="step-content">
-        <strong>Summary Generator Agent</strong>
+        <div class="step-title">Summary Generator Agent</div>
         <ul>
           <li>Generates a human-readable root cause summary, e.g.:
             <br><em>“Downtime at 14:32 likely caused by pressure valve fluctuation following a rise in line temperature (↑7°C) 5 mins prior. Matches prior incident on 05-May.”</em>
@@ -276,7 +299,7 @@ Reduced unplanned downtime through faster corrective action
     <!-- Step 5 -->
     <div class="step-card" data-step="5">
       <div class="step-content">
-        <strong>Notification Trigger</strong>
+        <div class="step-title">Notification Trigger</div>
         <ul>
           <li>Sends summary via email or maintenance alert system to:
             <ul>
@@ -292,7 +315,7 @@ Reduced unplanned downtime through faster corrective action
     <!-- Step 6 -->
     <div class="step-card" data-step="6">
       <div class="step-content">
-        <strong>Append to Downtime Knowledge Base</strong>
+        <div class="step-title">Append to Downtime Knowledge Base</div>
         <ul>
           <li>Logs structured metadata for post-mortem review and model refinement</li>
           <li>Adds to searchable incident history for future root cause prediction</li>
@@ -305,8 +328,8 @@ Reduced unplanned downtime through faster corrective action
   </div>
 </div>
 
-                <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                    <h3 class="box-title">Tools & Components Used</h3>
+                <div class="tab-pane fade" id="additional" style="font-size: large;" role="tabpanel" aria-labelledby="additional-tab">
+                    <h3>Tools & Components Used</h3>
                     <div class="row">
                             <div>* MagicETL: Merging time-series, maintenance, and operator data 
 
